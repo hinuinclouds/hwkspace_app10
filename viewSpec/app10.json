@@ -29,6 +29,18 @@
         {
           "name" : "leftColumn",
           "autoNav" : false,
+          "childrenSpecs" : [
+            {
+              "name" : "SideBar_1",
+              "alignment" : "top",
+              "autoNav" : false,
+              "flexGrow" : "1",
+              "reference" : "SideBar",
+              "tag" : "userDefined",
+              "trigger" : "_initial_",
+              "type" : "view"
+            }
+          ],
           "cssClass" : "left-column",
           "designTimeWidth" : "250px",
           "tag" : "templateE",
